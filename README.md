@@ -1,1 +1,2 @@
-# Port_logger
+# Port_scanner
+This port scanner basically lets you see what ports on your computer are open. I used threads on my first verison which did limit the amount of ports I could check, so I also made a second version with async which lets you scan many more. It adds the time, host, which ports are open, what each port is usually for, and amount of the service banner depending on how many bytes you allow on the line : data = s.recv(4096). 
